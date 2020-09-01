@@ -2,7 +2,7 @@
 
 React starter for creating a portfolio site with Webiny Headless CMS.
 
-![Blogs](/src/assets/blogs.png "Blogs page on React Starter Portfolio")
+![Blogs](./frontend/src/assets/blogs.png "Blogs page on React Starter Portfolio")
 
 [Watch the live demo](https://webiny-starter-react-portfolio.vercel.app/).
 
@@ -49,5 +49,3 @@ Here are the docs to deploy each one:
 - Frontend
 
 Vercel deploy steps
-
-# webiny-starter-react-portfolio
