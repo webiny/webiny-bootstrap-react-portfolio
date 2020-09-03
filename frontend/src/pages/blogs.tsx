@@ -51,7 +51,7 @@ const Blogs = () => {
   return (
     <Container maxWidth='md' className={classes.root}>
       <Typography variant="h3" component="h2" className={classes.title}>
-        Blogs
+        Webiny Blogs
       </Typography>
 
       <div className={classes.description}>

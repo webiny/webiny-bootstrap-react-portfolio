@@ -46,6 +46,7 @@ const ProjectCard = () => {
         </Container>
       )
   }
+  
   if(error) {
     return <p>Error fetching projects</p>;
   }
@@ -53,9 +54,8 @@ const ProjectCard = () => {
   return (
     <Container maxWidth='md' className={classes.root}>
       <Typography variant="h3" component="h2" className={classes.title}>
-        Projects
+        Webiny Projects
       </Typography>
-
       <div className={classes.description}>
         What is Webiny? Webiny is an open-source framework for building serverless applications. 
         It provides you with developer tools, libraries, ready-made apps and processes. 
