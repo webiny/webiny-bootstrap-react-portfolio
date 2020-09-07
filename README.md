@@ -2,7 +2,7 @@
 
 ![Bootstrap cover](./frontend/src/assets/webiny-bootstrap-react-portfolio.png)
 
-This is a simple bootstrap project to create a portfolio website with React, Webiny Headless CMS and Apollo Client.
+This is a simple bootstrap project to create a portfolio website with [React](https://reactjs.org/), [Webiny Headless CMS](https://www.webiny.com/serverless-app/headless-cms) and [Apollo](https://www.apollographql.com/docs/react/).
 
 We will continue adding a series of bootstrap projects with different front-end frameworks. You can't find your favorite bootstrap project? Go ahead and ask for a Guide or Tutorial at the [Community Repo](https://github.com/webiny/community/issues/new/choose) of Webiny 🚀
 
@@ -11,7 +11,7 @@ We will continue adding a series of bootstrap projects with different front-end 
 
 [Watch the live demo](https://webiny-bootstrap-react-portfolio.vercel.app/).
 
-Clone the bootstrap project and continue working on your portfolio website to showcase your work. Focus your creativity on creating valuable content and update your projects and blogs with Webiny Headless CMS Content Models.
+Clone the bootstrap project and continue working on your portfolio website to showcase your work. Focus your creativity on creating valuable content and update your projects and blogs with [Webiny](webiny.com) [Headless CMS Content Models](http://docs.webiny.com/docs/webiny-apps/headless-cms/features/content-modeling).
 
 ## Portfolio bootstrap features:
 
@@ -41,17 +41,14 @@ cd webiny-bootstrap-react-portfolio/frontend
 ```
 Start your front-end project:
 
+Using yarn:
 ```
-Using yarn
-
 yarn install
 yarn develop
 ```
-Or,
+Or, using npm:
 
 ```
-Using npm
-
 npm install
 npm run develop
 ```
