@@ -1,5 +1,5 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+
 import { 
   makeStyles, 
   createStyles, 
@@ -75,10 +75,4 @@ export default function StarterCard({...pro}) {
       />
     </Card>
   );
-}
-
-StarterCard.propTypes = {
-  title: PropTypes.string.isRequired,
-  subtitle: PropTypes.string.isRequired,
-  link: PropTypes.string.isRequired
 }

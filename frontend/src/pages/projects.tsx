@@ -79,7 +79,6 @@ const ProjectCard = () => {
               >
                 <StarterCard 
                   {...projects}
-                  
                   />
               </Grid>
             )

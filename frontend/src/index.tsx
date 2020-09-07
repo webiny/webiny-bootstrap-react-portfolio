@@ -8,7 +8,7 @@ import theme from './theme';
 import * as serviceWorker from './serviceWorker';
 
 // ApolloClient
-import { ApolloProvider } from "@apollo/react-hooks";
+import { ApolloProvider } from "@apollo/client";
 import client from './apolloClient/index';
 
 

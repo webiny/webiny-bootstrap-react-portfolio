@@ -4,9 +4,11 @@ import StarterCard from '../components/card';
 import { 
   Grid, 
   Container, 
-  Typography } from '@material-ui/core'
+  Typography,
+  CircularProgress
+ } from '@material-ui/core'
 import theme from '../theme';
-import CircularProgress from '@material-ui/core/CircularProgress'
+// import CircularProgress from '@material-ui/core/CircularProgress'
 
 import { useQuery } from '@apollo/react-hooks';
 
@@ -62,6 +64,9 @@ const Blogs = () => {
       <Grid 
         container 
         spacing={4} 
+        direction="row"
+        alignItems="center"
+      
         className={classes.root}
         justify="center"
         >

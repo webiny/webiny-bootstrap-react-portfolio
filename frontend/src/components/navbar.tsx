@@ -20,9 +20,6 @@ import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import logo from '../assets/logo.svg';
 import MyIcons from './icons';
 
-// theme
-import theme from '../theme';
-
 const drawerWidth = 220;
 
 const useStyles = makeStyles((theme: Theme) => 
@@ -62,21 +59,21 @@ const useStyles = makeStyles((theme: Theme) =>
 )
 
 export default function Navbar() {
-    const classes = useStyles(theme);
+    const classes = useStyles();
 
     return (
         <div className={classes.root}>
-            <CssBaseline />
-            <Drawer 
-                className={classes.drawer}
-                open={true}
-                variant="permanent"
-                classes={{
-                    paper: classes.drawerPaper,
-                }}
-                anchor="left"
-                >
-                <List style={{ height: '100%' }}>
+          <CssBaseline />
+          <Drawer 
+            className={classes.drawer}
+            open={true}
+            variant="permanent"
+            classes={{
+                paper: classes.drawerPaper,
+            }}
+            anchor="left"
+          >
+              <List style={{ height: '100%' }}>
                 {['About', 'Blogs', 'Projects'].map((text, index) => {
                     return (
                         <Link to={'/'+text.toLowerCase()} className={classes.link} key={index}>
@@ -90,17 +87,23 @@ export default function Navbar() {
                         )
                     }
                 )}
-                <a href='https://webiny.com/serverless-app/headless-cms' className={classes.webinyLink} target="_blank" rel="noopener noreferrer" style={{ position: 'absolute', bottom: 0 }}>
-                    <Divider light />
+                <a 
+                  href='https://webiny.com/serverless-app/headless-cms' 
+                  className={classes.webinyLink} 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  style={{ position: 'absolute', bottom: 0 }}
+                >
+                  <Divider light />
                     <ListItem>
-                        <ListItemIcon>
-                            <img src={logo} width='25' alt="webiny" />
-                        </ListItemIcon>
-                        <ListItemText primary={'Webiny Headless CMS'} />
+                      <ListItemIcon>
+                          <img src={logo} width='25' alt="webiny" />
+                      </ListItemIcon>
+                      <ListItemText primary={'Webiny Headless CMS'} />
                     </ListItem>
                 </a>
-                </List>
-                <Divider light />
+              </List>
+              <Divider light />
             </Drawer>
         </div>
     )

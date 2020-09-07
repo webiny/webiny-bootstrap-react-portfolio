@@ -1,13 +1,13 @@
 import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
-import theme from '../theme';
+import { makeStyles, createStyles, Theme } from '@material-ui/core/styles';
 
 import { 
     Container, 
     Typography
 } from '@material-ui/core';
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = makeStyles((theme: Theme) =>
+  createStyles({
   root: {
     ...theme.typography.button,
     backgroundColor: theme.palette.background.paper,
@@ -25,7 +25,7 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 export default function Home() {
-    const classes = useStyles(theme);
+    const classes = useStyles();
     
     return (
         <Container maxWidth='md' className={classes.root}>

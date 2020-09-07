@@ -1,4 +1,8 @@
-import { ApolloClient, createHttpLink, InMemoryCache } from '@apollo/client';
+import { 
+  ApolloClient, 
+  createHttpLink, 
+  InMemoryCache 
+} from '@apollo/client';
 import { setContext } from '@apollo/client/link/context';
 //This REACT_APP_GRAPHQL_URL is defined in a .env file at the root of the project
 const httpLink = createHttpLink({
