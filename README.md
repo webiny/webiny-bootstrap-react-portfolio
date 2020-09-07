@@ -7,7 +7,7 @@ We will continue adding a series of bootstrap projects with different front-end 
 ## Demo
 ![Blogs](./frontend/src/assets/blogs.png "Blogs page on React Starter Portfolio")
 
-[Watch the live demo](https://webiny-starter-react-portfolio.vercel.app/).
+[Watch the live demo](https://webiny-bootstrap-react-portfolio.vercel.app/).
 
 Clone the bootstrap project and continue working on your portfolio website to showcase your work. Focus your creativity on creating valuable content and update your projects and blogs with Webiny Headless CMS Content Models.
 
