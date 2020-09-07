@@ -35,7 +35,7 @@ Clone the repository:
 
 ```
 git clone 
-cd webiny-react-starter-portfolio/frontend
+cd webiny-bootstrap-react-portfolio/frontend
 ```
 Start your front-end project:
 
