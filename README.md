@@ -36,7 +36,7 @@ In order to have this project work, you need to have a Webiny Headless CMS proje
 Clone the repository:
 
 ```
-git clone 
+git clone https://github.com/webiny/webiny-bootstrap-react-portfolio.git
 cd webiny-bootstrap-react-portfolio/frontend
 ```
 Start your front-end project:
